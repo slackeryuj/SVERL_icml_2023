@@ -1,11 +1,11 @@
 import sys
-sys.path.insert(0, '../')
-
-from q_agent_1 import Agent
-from gwa import Grid
-from utils import train, get_state_dist, F_not_i, tqdm_label
-from characteristics import Characteristics
-from shapley import Shapley
+# sys.path.insert(0, '../')
+sys.path.append("E:/XAI/RL_with_SHAP/pythonProject1/SVERL_icml_2023")
+from SVERL_icml_2023.q_agent_1 import Agent
+from SVERL_icml_2023.gwa.gwa import Grid
+from SVERL_icml_2023.utils import train, get_state_dist, F_not_i, tqdm_label
+from SVERL_icml_2023.characteristics import Characteristics
+from SVERL_icml_2023.shapley import Shapley
 import numpy as np
 
 env = Grid()

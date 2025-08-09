@@ -1,0 +1,4 @@
+AAPL
+DIA
+SPY
+QQQ

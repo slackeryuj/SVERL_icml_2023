@@ -1,0 +1,20 @@
+{
+  "final_model_path": "ppo_stage2_final_model.zip",
+  "best_model_path": "logs\\best_model.zip",
+  "weights_csv": "ppo_stage2_weights.csv",
+  "training_history": "logs\\training_history.csv",
+  "cumulative_return_rl": 0.39438780666206474,
+  "cumulative_return_equal": 0.38648800372701353,
+  "rl_metrics": [
+    0.09789955762291469,
+    0.14703054601990842,
+    0.6658450252212134,
+    -0.17847332948112304
+  ],
+  "equal_metrics": [
+    0.09614854215941415,
+    0.14743374558665312,
+    0.6521474563155797,
+    -0.17849525591638093
+  ]
+}

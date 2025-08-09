@@ -1,0 +1,22 @@
+class TrainingConfig:
+    train_window_days: int = 252 * 7      # 10 years for training
+    validation_window_days: int = 252      # ~6 months for validation
+    prediction_window_days: int = 252      # ~6 months for prediction
+    lookback_period: int = 21              # lookback for observations
+    rebalance_period: int = 21             # rebalance every 10 days
+    n_iter_tuning: int = 20                # number of hyperparameter samples
+    tuning_timesteps: int = 10_000          # timesteps for each tune
+    incremental_timesteps: int = 5_000     # PPO training step size
+    max_timesteps: int = 30_000            # maximum PPO timesteps
+    patience: int = 3                      # early stopping patience
+    policy_arch: Tuple[int, int] = (256, 256)  # network architecture
+    num_iterations: int = 10                # number of outer iterations (seeds)
+    base_seed: int = 42                    # base random seed
+    default_risk_coeff: float = 0.5        # default risk coefficient
+    desired_long: float = 1.0       # Default no leverage, 100% allocation
+    desired_short: float = 0.3      # Default no short selling
+    weight_bounds: Tuple[float, float] = (-0.3, 1.0)  # Default bounds [0,1] for no shorts
+    lambda_hhi: float = 0.1
+    lambda_turnover: float = 0.005
+    transaction_cost_rate: float = 0.0
+    model_retrain: bool  = False

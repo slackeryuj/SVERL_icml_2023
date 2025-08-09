@@ -1,6 +1,6 @@
 import numpy as np
 from collections import defaultdict
-from utils import F_not_i
+from SVERL_icml_2023.utils import F_not_i
 
 class Shapley:
     """

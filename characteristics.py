@@ -24,8 +24,10 @@ class Characteristics:
         self.F = np.arange(self.F_card)
 
         # If resetting is done by copying env or is built into reset function.
-        if instances is None: self.reset_by_copy = False
-        else: self.reset_by_copy = True
+        if instances is None:
+            self.reset_by_copy = False
+        else:
+            self.reset_by_copy = True
 
     def local_sverl_C_values(self, num_rolls, pi_Cs, multi_process=False, num_p=1):
         """
@@ -55,17 +57,22 @@ class Characteristics:
         self.pi_Cs = pi_Cs
 
         # Do all the roll outs once now. Different values if available actions are state dependent or not.
-        if valid_dict is None: self.action_values = {tuple(state) : np.mean([[self.play_episode(state.copy(), self.pi_Cs[tuple(self.F)], action) 
+        if valid_dict is None:
+            self.action_values = {tuple(state) : np.mean([[self.play_episode(state.copy(), self.pi_Cs[tuple(self.F)], action)
                                   for action in range(self.env.num_actions)] 
                                   for _ in tqdm_label(range(int(num_rolls)), 'Calculating Characteristics {}/{}'.format(i + 1, len(self.states_to_explain)))], axis=0)
                                   for i, state in enumerate(self.states_to_explain)}
             
-        else: self.action_values = {tuple(state) : np.mean([[self.play_episode(state.copy(), self.pi_Cs[tuple(self.F)], action) if action in valid_dict[state.tobytes()] else 0 
+        else:
+            self.action_values = {tuple(state) : np.mean([[self.play_episode(state.copy(), self.pi_Cs[tuple(self.F)], action) if action in valid_dict[state.tobytes()] else 0
                                   for action in range(self.env.num_actions)]
                                   for _ in tqdm_label(range(int(num_rolls)), 'Calculating Characteristics {}/{}'.format(i + 1, len(self.states_to_explain)))], axis=0)
                                   for i, state in enumerate(self.states_to_explain)}
 
         return self.get_all_C_values(self.get_fast_local, multi_process, num_p)
+
+    def get_policy_function(self, state, C):
+        return copy.deepcopy(self.pi_Cs[tuple(C)])
 
     def global_sverl_C_values(self, num_rolls, pi_Cs, multi_process=False, num_p=1):
         """
@@ -80,7 +87,8 @@ class Characteristics:
         self.pi_Cs = pi_Cs
 
         # Function for calculating partial policy for global SVERL
-        self.get_policy = lambda state, C : copy.deepcopy(self.pi_Cs[tuple(C)]) 
+        # self.get_policy = lambda state, C : copy.deepcopy(self.pi_Cs[tuple(C)])
+        self.get_policy = self.get_policy_function
 
         return self.get_all_C_values(self.get_local_global, multi_process, num_p)
 

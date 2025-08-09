@@ -1,0 +1,15 @@
+{
+  "vf_coef": 1.0,
+  "seed": 56,
+  "risk_coefficient": 0.5,
+  "n_steps": 64,
+  "max_grad_norm": 0.5,
+  "learning_rate": 0.0001,
+  "lambda_turnover": 0.01,
+  "lambda_hhi": 0.03,
+  "gamma": 0.985,
+  "gae_lambda": 0.9,
+  "ent_coef": 0.01,
+  "clip_range": 0.2,
+  "batch_size": 64
+}

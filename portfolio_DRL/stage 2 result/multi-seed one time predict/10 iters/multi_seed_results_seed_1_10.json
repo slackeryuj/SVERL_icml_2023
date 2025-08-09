@@ -1,0 +1,212 @@
+[
+  {
+    "final_model_path": "ppo_stage2_final_model_seed1.zip",
+    "best_model_path": "logs_seed1\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed1.csv",
+    "training_history": "logs_seed1\\training_history.csv",
+    "cumulative_return_rl": 1.095598050278649,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.1394661003476816,
+      0.1990517032090883,
+      0.7006526349648128,
+      -0.3433275110380122
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 1
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed2.zip",
+    "best_model_path": "logs_seed2\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed2.csv",
+    "training_history": "logs_seed2\\training_history.csv",
+    "cumulative_return_rl": 0.9099465226891312,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.12096480640751595,
+      0.19247176176710573,
+      0.6284807978943193,
+      -0.3259621382158917
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 2
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed3.zip",
+    "best_model_path": "logs_seed3\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed3.csv",
+    "training_history": "logs_seed3\\training_history.csv",
+    "cumulative_return_rl": 0.8173566710365268,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.11117780816231915,
+      0.18674161782184226,
+      0.5953563509789579,
+      -0.3505774796473943
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 3
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed4.zip",
+    "best_model_path": "logs_seed4\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed4.csv",
+    "training_history": "logs_seed4\\training_history.csv",
+    "cumulative_return_rl": 0.8572806420443133,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.11544709370875861,
+      0.2025604874508332,
+      0.5699388620240198,
+      -0.33371816338238824
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 4
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed5.zip",
+    "best_model_path": "logs_seed5\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed5.csv",
+    "training_history": "logs_seed5\\training_history.csv",
+    "cumulative_return_rl": 0.5613381270633244,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.08179886947432902,
+      0.21449677261770958,
+      0.38135244869216006,
+      -0.4212680474698032
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 5
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed6.zip",
+    "best_model_path": "logs_seed6\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed6.csv",
+    "training_history": "logs_seed6\\training_history.csv",
+    "cumulative_return_rl": 0.9302845343341588,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.12306208179292688,
+      0.19314972258632948,
+      0.637133101435978,
+      -0.35708127281291946
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 6
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed7.zip",
+    "best_model_path": "logs_seed7\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed7.csv",
+    "training_history": "logs_seed7\\training_history.csv",
+    "cumulative_return_rl": 0.6797695401170945,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.09584706139422461,
+      0.2079350405558773,
+      0.4609471358843346,
+      -0.3790480888632106
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 7
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed8.zip",
+    "best_model_path": "logs_seed8\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed8.csv",
+    "training_history": "logs_seed8\\training_history.csv",
+    "cumulative_return_rl": 1.7149776403870658,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.19274330246528848,
+      0.2278486468386072,
+      0.8459269130609101,
+      -0.3740711571774906
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 8
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed9.zip",
+    "best_model_path": "logs_seed9\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed9.csv",
+    "training_history": "logs_seed9\\training_history.csv",
+    "cumulative_return_rl": 0.678769872077807,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.09573194562079101,
+      0.20181975288362908,
+      0.47434378574425684,
+      -0.3647337984829816
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 9
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed10.zip",
+    "best_model_path": "logs_seed10\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed10.csv",
+    "training_history": "logs_seed10\\training_history.csv",
+    "cumulative_return_rl": 1.0779184096325478,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.13776373403007747,
+      0.19648092697407285,
+      0.7011557617918631,
+      -0.3206240130645849
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 10
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "final_model_path": "ppo_stage2_final_model_seed11.zip",
+    "best_model_path": "logs_seed11\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed11.csv",
+    "training_history": "",
+    "cumulative_return_rl": 0.8365555223313412,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.11324038331595365,
+      0.20205681080204807,
+      0.560438338437864,
+      -0.34500111282045565
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 11
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed12.zip",
+    "best_model_path": "logs_seed12\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed12.csv",
+    "training_history": "",
+    "cumulative_return_rl": 0.5817665813765436,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.08428331710968995,
+      0.1929971216773598,
+      0.43670763779881333,
+      -0.32869585445840566
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 12
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed13.zip",
+    "best_model_path": "logs_seed13\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed13.csv",
+    "training_history": "",
+    "cumulative_return_rl": 1.0813626882259082,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.1380963154490118,
+      0.20142588616090695,
+      0.6855936845113095,
+      -0.3210854621619721
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 13
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed14.zip",
+    "best_model_path": "logs_seed14\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed14.csv",
+    "training_history": "",
+    "cumulative_return_rl": 1.0381090335736678,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.13388639294991989,
+      0.2068847691370154,
+      0.6471544208324479,
+      -0.4199321571502327
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 14
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed15.zip",
+    "best_model_path": "logs_seed15\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed15.csv",
+    "training_history": "",
+    "cumulative_return_rl": 0.7674287277633416,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.10572867488253679,
+      0.2073540570016342,
+      0.5098944115749976,
+      -0.3966495001479382
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 15
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed16.zip",
+    "best_model_path": "logs_seed16\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed16.csv",
+    "training_history": "",
+    "cumulative_return_rl": 0.9633333156863637,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.1264316119222455,
+      0.21307682752830864,
+      0.5933616216688239,
+      -0.38648344776364596
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 16
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed17.zip",
+    "best_model_path": "logs_seed17\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed17.csv",
+    "training_history": "",
+    "cumulative_return_rl": 0.6872760851720634,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.09670967233976246,
+      0.2003208086942573,
+      0.48277397126210225,
+      -0.3451188883481394
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 17
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed18.zip",
+    "best_model_path": "logs_seed18\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed18.csv",
+    "training_history": "",
+    "cumulative_return_rl": 0.8342770514150388,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.11299653336077675,
+      0.2109492455239228,
+      0.5356574425290482,
+      -0.390316960383997
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 18
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed19.zip",
+    "best_model_path": "logs_seed19\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed19.csv",
+    "training_history": "",
+    "cumulative_return_rl": 0.5070745918408488,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.07506703144650628,
+      0.2161750043626574,
+      0.3472512081950652,
+      -0.42275962111123944
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 19
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed20.zip",
+    "best_model_path": "logs_seed20\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed20.csv",
+    "training_history": "",
+    "cumulative_return_rl": 0.8545973121874268,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.1151625320699321,
+      0.19573813217692188,
+      0.58835001023633,
+      -0.34363882610991436
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 20
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed21.zip",
+    "best_model_path": "logs_seed21\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed21.csv",
+    "training_history": "",
+    "cumulative_return_rl": 1.3319449980992637,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.16115839178051483,
+      0.21877222839035912,
+      0.7366492217328293,
+      -0.35674856195422777
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 21
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed22.zip",
+    "best_model_path": "logs_seed22\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed22.csv",
+    "training_history": "logs_seed22\\training_history.csv",
+    "cumulative_return_rl": 0.6437370297927949,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.09166166503086282,
+      0.2006582936256562,
+      0.45680476682346777,
+      -0.3899327746268716
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 22
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed23.zip",
+    "best_model_path": "logs_seed23\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed23.csv",
+    "training_history": "logs_seed23\\training_history.csv",
+    "cumulative_return_rl": 0.9793967550631963,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.12805253849275533,
+      0.1990972075564284,
+      0.6431659191225095,
+      -0.37042162722577565
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 23
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed24.zip",
+    "best_model_path": "logs_seed24\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed24.csv",
+    "training_history": "logs_seed24\\training_history.csv",
+    "cumulative_return_rl": 0.8992198361519814,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.1198512421028255,
+      0.19974181282368186,
+      0.6000308118191648,
+      -0.3492933739361652
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 24
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed25.zip",
+    "best_model_path": "logs_seed25\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed25.csv",
+    "training_history": "logs_seed25\\training_history.csv",
+    "cumulative_return_rl": 1.2471585083116823,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.15359404950257227,
+      0.20265728846934894,
+      0.757900446920283,
+      -0.3405626597174791
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 25
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed26.zip",
+    "best_model_path": "logs_seed26\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed26.csv",
+    "training_history": "logs_seed26\\training_history.csv",
+    "cumulative_return_rl": 1.1015672686174467,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.1400382036076775,
+      0.19816374346044527,
+      0.7066792399167106,
+      -0.3600196227869349
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 26
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed27.zip",
+    "best_model_path": "logs_seed27\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed27.csv",
+    "training_history": "logs_seed27\\training_history.csv",
+    "cumulative_return_rl": 0.7586647524187933,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.10475912837086687,
+      0.19176369226229778,
+      0.5462928207889086,
+      -0.365994420294977
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 27
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed28.zip",
+    "best_model_path": "logs_seed28\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed28.csv",
+    "training_history": "logs_seed28\\training_history.csv",
+    "cumulative_return_rl": 0.8523885440912955,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.11492804220478625,
+      0.20879747621982211,
+      0.5504283111343259,
+      -0.4443969179035616
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 28
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed29.zip",
+    "best_model_path": "logs_seed29\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed29.csv",
+    "training_history": "logs_seed29\\training_history.csv",
+    "cumulative_return_rl": 0.7191765658660838,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.10034061593305266,
+      0.20010336787168118,
+      0.5014439137146225,
+      -0.38218807177334824
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 29
+  },
+  {
+    "final_model_path": "ppo_stage2_final_model_seed30.zip",
+    "best_model_path": "logs_seed30\\best_model.zip",
+    "weights_csv": "ppo_stage2_weights_seed30.csv",
+    "training_history": "logs_seed30\\training_history.csv",
+    "cumulative_return_rl": 0.9532720566912918,
+    "cumulative_return_equal": 0.9093882635492108,
+    "rl_metrics": [
+      0.12541078112631254,
+      0.20689727334908817,
+      0.6061499946145388,
+      -0.4026445141310504
+    ],
+    "equal_metrics": [
+      0.12090697933304906,
+      0.19762462897958466,
+      0.6118011705187777,
+      -0.37275390110050566
+    ],
+    "seed": 30
+  }
+]
