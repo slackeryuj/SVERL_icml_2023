@@ -25,7 +25,7 @@ os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
 # 0. Load and align data
 # ------------------------------------------------------------------------
 factors = pd.read_csv("aligned_factors.csv", index_col=0, parse_dates=True)
-returns = pd.read_csv("daily_returns_10ETFs.csv", index_col=0, parse_dates=True)
+returns = pd.read_csv("daily_returns_DIA_ETF.csv", index_col=0, parse_dates=True)
 
 # Align dates to ensure matching indices
 dates = factors.index.intersection(returns.index)
@@ -440,6 +440,6 @@ for etf in returns.columns:
 
 # Concatenate and save all predictions and SHAP values
 final_predictions_df = pd.concat(all_predictions, ignore_index=True)
-final_predictions_df.to_csv("stage1_predictions_with_shap_10ETFs.csv", index=False)
+final_predictions_df.to_csv("stage1_predictions_with_shap_DIA_ETF.csv", index=False)
 
 print("Stage 1 completed and data saved for Stage 2.")

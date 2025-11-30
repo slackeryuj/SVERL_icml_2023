@@ -1,0 +1,7 @@
+10ETF shap only (all shap) risk1 - use all tech indicator
+
+
+10 ETF no shap + stage 1 feature - use stage 1 feature only
+ but issue found for using the features in the env because of filter_features are not correct
+
+10 ETF all raw shap + stage 1 feature - use stage 1 feature + shap but issue found for using the features in the env because of filter_features are not correct
